@@ -1,0 +1,21 @@
+%title: GIT
+%author: xavki
+
+-> GIT : logs <-
+=========
+
+* essentiel pour un outil de versionning
+<br>
+
+* git log
+
+* git log --oneline
+
+* git log --oneline --graph
+
+* git log --oneline --graph --name-status
+
+Perso :
+
+git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%Cblue - %cn %Creset' --abbrev-commit --date=relative
+
