@@ -1,0 +1,22 @@
+%title: GIT
+%author: xavki
+
+-> GIT : config <-
+=========
+
+<br>
+Où ? :
+	- 1. /etc/gitconfig  : à tous les users/machine
+	- 2. ~/.gitconfig  : à un utilisateur
+	- 3. <dir_depot>/.git/config : à un dépôt/utilisateur
+
+-------------------------------------------------
+
+-> Commandes à retenir <-
+
+
+* git config --list : pour lister les variables
+
+* git config --global user.email "mail"  : pour définir email
+
+
