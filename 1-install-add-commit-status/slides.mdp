@@ -1,0 +1,50 @@
+%title: GIT
+%author: xavki
+
+-> GIT : intérêt <-
+=========
+
+* microvidéos
+
+* versionner : retour arrière, gestion version
+
+* dépot local et/ou distant(s) => github / gitlab
+
+
+-------------------------------------------------
+
+-> Premières commandes <-
+
+
+* sudo apt-get install git
+
+* git init
+
+* git add
+
+* git commit
+
+* ne pas se poser de question lors du docker run du conteneur
+
+* création images prod // dev - CI // CD
+
+
+-------------------------------------------------
+
+-> Exemple de dockerfile <-
+
+```
+FROM ubuntu:latest
+MAINTAINER xavier
+RUN apt-get update \ 
+&& apt-get install -y vim git \ 
+&& apt-get clean \ 
+&& rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/* 
+```
+
+
+-> commande <-
+
+```
+docker build -t nomimage:version .
+```
