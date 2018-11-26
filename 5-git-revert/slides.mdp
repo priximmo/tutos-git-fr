@@ -1,0 +1,26 @@
+%title: GIT
+%author: xavki
+
+-> GIT : le revert <-
+=========
+
+<br>
+* git revert permet de revenir en arrière (un ou plusieurs commit)
+	- c'est la manière propre (différence de reset)
+		- car on garde une trace des commits (git reset non)
+
+<br>
+état final : 	commit1 -- commit2 -- commit3
+
+objectif revenir à commit1
+
+revert :      commit1 -- commit2 -- commit3 -- commit2 -- commit1
+reset :				commit1
+
+<br>
+
+* git revert <num_dernier_commit> : revenir au denrier commit
+
+* git revert HEAD~2..HEAD : revenir de 2 commits en arrière
+
+* ATTENTION : ne pas confondre avec git checkout <fichier> (à faire avant indexation)
