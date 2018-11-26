@@ -1,0 +1,17 @@
+%title: GIT
+%author: xavki
+
+-> GIT : différences entre commit <-
+=========
+
+* à savoir faire :
+	- incident : quelqu'un a fait évoluer un fichier de conf : mais quelle ligne ?
+
+<br>
+
+* git diff <commit1> <commit2>
+
+* git diff <branch1>..<branch2>
+
+* dans le même genre :
+	-	git log --graph -p
