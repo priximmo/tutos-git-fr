@@ -1,0 +1,15 @@
+%title: GIT
+%author: xavki
+
+-> GIT : le blame <-
+=========
+
+<br>
+* git blame : permet de lister les dernières modifications de chaque ligne d'un fichier
+
+* git blame <fichier> 
+
+* git blame -L l1,l2 <fichier>    : de la ligne l1 à l2
+
+* git log -S "ligne" --pretty=format:'%h %an %ad %s'   : recherche les logs concernant des lignes contenant "lignes"
+
