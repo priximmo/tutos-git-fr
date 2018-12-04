@@ -1,0 +1,25 @@
+%title: GIT
+%author: xavki
+
+-> GIT : les branches <-
+=========
+
+<br>
+* permet meilleure gestion des versions (espace de travail)
+
+* permet de travailler plus facilement à plusieurs
+
+* permet d'organiser les mises en production (notion de tags...)
+
+<br>
+
+Commandes :
+
+git branch <nom_branche>   : création d'une branche
+
+git checkout <nom_branche> : changement de branche
+
+git merge <branche_source> : import d'une branche source vers ma branche actuelle
+
+Schémas...
+
