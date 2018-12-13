@@ -1,0 +1,30 @@
+%title: GIT
+%author: xavki
+
+-> GIT : éditeur TIG <-
+=========
+
+<br>
+* visualiser un dépot (git log --graph)
+
+* naviguer dans les commit
+
+* visualiser en instantané les commits
+
+* éditer
+
+<br>
+
+Commandes :
+
+* tig : navigation dépôt
+
+* tig show : dernier commit en détail
+
+* tig status : détails git status
+
+* tig log : git log plus détaillé et en couleur
+
+* tig -- <fichier> : focus sur un fichier
+
+* tig blame -C <fichier> : git blame plus sympa (couleur, lignes détaillées)
