@@ -1,0 +1,33 @@
+%title: GIT
+%author: xavki
+
+-> GIT : gitignore <-
+=========
+
+<br>
+* principe ne pas gitter certains fichiers ou répertoires
+
+* .gitignore : à la racine du dépot comme le répertoire .git/
+
+```
+# on ignore le répertoire de logs
+logs/
+```
+
+<br>
+
+* Astuce :
+	- avoir à gérer une liste longue
+	- faire l'inverse : lister uniquement les répertoires ou fichiers à gitter (acte volontaire)
+
+Contenu du gitignore :
+
+on ignore tout sauf "scripts/"
+
+```
+# tout
+/*
+# sauf scripts/
+!/scripts/
+
+```
